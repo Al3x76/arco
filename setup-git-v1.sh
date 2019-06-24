@@ -1,11 +1,11 @@
 #!/bin/bash
 set -e
 ##################################################################################################################
-# Author	:	Pompiliu Alexoiu
+# Author	:	Al3x76
 ##################################################################################################################SS
 
 git init
-git config --global user.name "Pompiliu Alexoiu"
+git config --global user.name "Al3x76"
 git config --global user.email "alexoiupompiliu@gmail.com"
 sudo git config --system core.editor nano
 git config --global credential.helper cache
