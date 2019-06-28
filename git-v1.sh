@@ -16,9 +16,7 @@ git pull
 git add --all .
 
 # Give a comment to the commit if you want
-echo "####################################"
-echo "Write your commit comment!"
-echo "####################################"
+echo "###  Write your commit comment!  ###"
 
 read input
 
@@ -31,6 +29,4 @@ git commit -m "$input"
 git push -u origin master
 
 
-echo "################################################################"
 echo "###################    Git Push Done      ######################"
-echo "################################################################"
